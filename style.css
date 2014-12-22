@@ -1,0 +1,265 @@
+@import url(http://fonts.googleapis.com/css?family=Alef:400,700);
+
+@font-face
+{
+font-family: Coolvetica;
+src: url('fonts/ot/coolvetica%20rg.otf');
+}
+
+/******GENERAL SLIDE SIZES *****/
+
+.tabs-content
+{
+color:blue;
+}
+.accordian
+{
+    -webkit-box-shadow: 0px 3px 17px 0px rgba(50, 50, 50, 0.44);
+    -moz-box-shadow: 0px 3px 17px 0px rgba(50, 50, 50, 0.44);
+    box-shadow: 0px 3px 17px 0px rgba(50, 50, 50, 0.44);
+}
+.accordian dd > a {
+	background: #fff !important;;
+}
+.slide {
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
+#video-bg
+{
+    width:100%;
+    height:100%;
+    position:relative;
+}
+.large-image {
+    font-family: Alef, sans-serif;
+    font-size: 9em;
+    color: rgba(255, 255, 255, 0.6);
+    vertical-align: baseline;
+    margin-top: 0;
+    padding-top: 35%;
+}
+.candidate {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 2px;
+    padding: 15px !important;
+    color: black;
+    margin-bottom:20px;
+    margin-top:20px;
+    -webkit-box-shadow: 0px 3px 17px 0px rgba(50, 50, 50, 0.44);
+    -moz-box-shadow: 0px 3px 17px 0px rgba(50, 50, 50, 0.44);
+    box-shadow: 0px 3px 17px 0px rgba(50, 50, 50, 0.44);
+}
+.profile {
+    color: black;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0px 3px 17px 0px rgba(50, 50, 50, 0.44);
+    -moz-box-shadow: 0px 3px 17px 0px rgba(50, 50, 50, 0.44);
+    box-shadow: 0px 3px 17px 0px rgba(50, 50, 50, 0.44);
+}
+.profile-picture {
+
+}
+.larger-image-overlay{
+    background:rgba(34,34,34,0.7);
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    z-index:1000;
+}
+.large-image-overlay {
+    background: rgba(34, 34, 34, 0.7);
+    width: 100%;
+    height: 100%;
+}
+.large-white-image-overlay {
+    background: rgba(255, 255, 255, 0.3);
+    width: 100%;
+    height: 100%;
+}
+#slide1 {
+    background: rgb(24, 25, 69);
+    color: #fff;
+  
+}
+#slide2{
+    height:35%;
+    -webkit-box-shadow: 0px 1px 28px 8px rgba(0,0,0,0.52);
+    -moz-box-shadow: 0px 1px 28px 8px rgba(0,0,0,0.52);
+    box-shadow: 0px 1px 28px 8px rgba(0,0,0,0.52);
+    background-color: #FFD4E9;
+}
+#slide3 {
+
+    height:200% !important;
+}
+.slide3-overlay{
+background-image: url("img/slide1.jpg");
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+        width: 100%;
+    height: 100%;
+    position: relative;
+    z-index:-1;
+}
+#slide4 {
+    height:35%;
+    -webkit-box-shadow: 0px 1px 28px 8px rgba(0,0,0,0.52);
+    -moz-box-shadow: 0px 1px 28px 8px rgba(0,0,0,0.52);
+    box-shadow: 0px 1px 28px 8px rgba(0,0,0,0.52);
+    background-color: #FFD4E9;
+}
+
+#slide5 {
+    background-image: url("img/redDress2.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:600px;
+}
+#slide6 {
+    background-image: url("img/lilly.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:200%;
+}
+#slide7, #slide9, #slide20 {
+    height:20%;
+    -webkit-box-shadow: 0px 1px 28px 8px rgba(0,0,0,0.52);
+    -moz-box-shadow: 0px 1px 28px 8px rgba(0,0,0,0.52);
+    box-shadow: 0px 1px 28px 8px rgba(0,0,0,0.52);
+    background-color: #FFD4E9;
+}
+#slide8 {
+    background: rgb(24, 25, 69);
+    color: #fff;
+    padding-top:25px;
+    height:200%;
+}
+#slide10 {
+    background-color: #A60053;
+    height:200%;
+}
+#slide11 {
+    height:25%;
+    color: #fff;
+    -webkit-box-shadow: 0px 1px 28px 8px rgba(0,0,0,0.52);
+    -moz-box-shadow: 0px 1px 28px 8px rgba(0,0,0,0.52);
+    box-shadow: 0px 1px 28px 8px rgba(0,0,0,0.52);
+    background-color: #FFD4E9;
+}
+#slide12 {
+    background: rgb(24, 25, 69);
+    color: #fff;
+    padding-top:25px;
+}
+#slide13 {
+    background-image: url("img/bidDAy.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:600px;
+}
+#slide14 {
+    background-image: url("img/redDress.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:600px;
+}
+#slide15 {
+    background: #A60053;
+    height:200%;
+}
+#slide16 {
+    background-image: url("img/recruitment2.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:600px;
+}
+#slide17 {
+    background-image: url("img/fam1.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:600px;
+}
+#slide18, #slide21 {
+    background: #A60053;
+    height:200%;
+}
+#slide19 {
+    background-image: url("img/recruitment.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:600px;
+}
+#Example {
+
+}
+
+.logo {
+    z-index: 1000;
+}
+
+.campaign-headers {
+    color:#fff;
+}
+
+.active{
+    font-color: #FFFFFF;
+}
+
+
+.large-profile {
+    background-color:white;
+}
+
+.profile-picture-modal {
+    width:50%;
+    margin-right:20px;
+    float:left;
+}
+
+.form {
+    margin-top:40px;
+}
+.active_nav
+{
+    border-right: 1px solid rgb(230, 164, 52);
+    border-left: 1px solid rgb(230, 164, 52);
+}
+.active_nav a
+{
+    color: rgb(230, 164, 52) !important;
+}
+
+#bgvid {
+	z-index:0;
+
+}
+
+.social-media {
+    top:0;
+    left:0;
+    position:fixed;
+    z-index: 10000;
+    background-color:white;
+}
